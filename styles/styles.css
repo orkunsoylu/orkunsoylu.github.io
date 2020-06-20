@@ -1,0 +1,46 @@
+@font-face {
+  font-family: titleFont;
+  src: url(../fonts/title.ttf);
+}
+
+@font-face {
+  font-family: textFont;
+  src: url(../fonts/text.ttf);
+}
+
+body {
+  margin-left: 15%;
+  background-color: #404040;
+}
+
+h1 {
+  font-family: titleFont;
+  letter-spacing: 2px;
+}
+
+p {
+  font-family: textFont;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+p,
+h1,
+a:link,
+a:visited {
+  color: rgb(236, 234, 205);
+}
+
+a:hover {
+  color: rgb(187, 184, 162);
+}
+
+img {
+  width: 200px;
+  height: auto;
+  margin-right: 40px;
+}
+
+.images {
+  margin-top: 20px;
+}
